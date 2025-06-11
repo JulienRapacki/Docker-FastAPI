@@ -6,7 +6,7 @@
 
 ## Structure du projet
 
-'''
+```
 DIGITALISIM/
 ├── docker-compose.yml    # Configuration 
 ├── app/
@@ -17,18 +17,8 @@ DIGITALISIM/
 |       ├─ etl.py         # Pipiline récupération donnée / transformation / chargement 
 │── .env                  # Variables d'environnement 
 └── README.md
-'''
 ```
-poc-communes/
-├── docker-compose.yml      # Configuration des services
-├── app/
-│   ├── main.py             # API FastAPI
-│   ├── etl.py              # Pipeline ETL
-│   ├── requirements.txt    # Dépendances Python
-│   └── Dockerfile          # Image de l'application
-├── data/                   # Dossier pour les données (vide)
-└── README.md               # Cette documentation
-```
+
 ## Endpoints ##
 
 
