@@ -9,11 +9,11 @@
 DIGITALISIM/
 ├── docker-compose.yml    # Configuration 
 ├── app/
-├    ├─ main.py           # API FastAPI                          
-├    ├─ requirements.txt  # Dépendances Python
-├    ├─ ETL/
-├       ├─ Dockerfile     # Image de l'application
-├       ├─ etl.py         # Pipiline récupération donnée / transformation / chargement 
+|    ├─ main.py           # API FastAPI                          
+|    ├─ requirements.txt  # Dépendances Python
+|    ├─ ETL/
+|       ├─ Dockerfile     # Image de l'application
+|       ├─ etl.py         # Pipiline récupération donnée / transformation / chargement 
 │── .env                  # Variables d'environnement 
 └── README.md
 
