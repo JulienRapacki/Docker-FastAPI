@@ -20,9 +20,9 @@ DIGITALISIM/
 ## Endpoints ##
 
 
-| POST | `/import-data`                         | Importe le dataset des communes depuis l'URL et chargement dans bdd|
-| POST | `/communes`                            | Crée ou met à jour une commune |
-| GET  | `/communes/{nom_commune}`              | Récupère les informations d'une commune par son nom |
-| GET  | `/departements/{departement}/communes` | Liste toutes les communes d'un département |
-| GET  | `/`                                    | Point d'entrée de l'API |
+- POST | `/import-data`                         | Importe le dataset des communes depuis l'URL et chargement dans bdd|
+- POST | `/communes`                            | Crée ou met à jour une commune |
+- GET  | `/communes/{nom_commune}`              | Récupère les informations d'une commune par son nom |
+- GET  | `/departements/{departement}/communes` | Liste toutes les communes d'un département |
+- GET  | `/`                                    | Point d'entrée de l'API |
 
